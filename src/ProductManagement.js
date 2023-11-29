@@ -90,7 +90,7 @@ const ProdManagement = () => {
 
 
           <button 
-            className="bg-primary btn-sm" 
+            className="0766AD" 
             type="submit" 
             id="btn" 
             onClick={handleButton} 

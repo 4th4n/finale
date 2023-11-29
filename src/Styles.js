@@ -12,7 +12,7 @@ const inputStyles = {
 
 
 const buttonStyles = {
-    backgroundColor: '#0eb7f4',
+    backgroundColor: '#164863',
     color: 'white',
     padding: '14px 20px',
     margin: '8px 0',
@@ -27,25 +27,22 @@ const buttonStyles = {
   };
 
   const sty = {
-
-    backgroundColor: '#0eb7f4',
-    color: 'black',
-    display: 'block',
-    padding: '14px 20px',
+    backgroundColor: '#2980b9',
+    padding: '10px',
     margin: '5px 0',
-    border: 'none',
-    cursor: 'pointer',
+    border: '1px solid black',
+    cursor: 'center',
     width: '320px',
     opacity: '80%',
     fontSize: '20px',
     fontFamily: 'Montserrat, Arial, Helvetica, sans-serif',
     borderRadius: '10px',
-    marginRight:'10px',
+    color: '#fff',
+    transition:'backgroundColor 0.3s',
     
-  };
-  const hover={
-    backgroundColor:'#ddd',
-    border:'none'
+
+    
+
 
   }
 
@@ -57,7 +54,6 @@ export const styles = {
     inputStyles : inputStyles,
     buttonStyles : buttonStyles,
     sty: sty,
-    hover:hover
    
     
  };

@@ -24,19 +24,21 @@ const App = () => {
 
   return (
     <ProdListProvider>
+      
       <div>
+        
         <ul style={{ display: 'flex',listStyle: 'none', justifyContent: 'center'}}>
-          <li>
-            <button class="bg-blue-400 p-2"onClick={() => setSelectedTab('Product Management')} style={styles.sty}>Product Management</button>
+          <li style={{ marginRight: '10px' }}>
+           <button  type="button" className="btn btn-primary custom-button table table-responsive "onClick={() => setSelectedTab('Product Management')} style={styles.sty}>Product Management</button>
           </li>
           <li style={{ marginRight: '10px' }}>
-            <button class="bg-blue-400 p-2" onClick={() => setSelectedTab('Stock Management')} style={styles.sty}>Stock Management</button>
+            <button type="button" className="btn btn-primary custom-button table table-responsive" onClick={() => setSelectedTab('Stock Management')} style={styles.sty}>Stock Management</button>
           </li>
           <li style={{ marginRight: '10px' }}>
-            <button class="bg-blue-400 p-2"onClick={() => setSelectedTab('Category Management')} style={styles.sty}>Category Management</button>
+            <button  type="button" className="btn btn-primary custom-button table table-responsive"onClick={() => setSelectedTab('Category Management')} style={styles.sty}>Category Management</button>
           </li>
           <li style={{ marginRight: '10px' }}>
-            <button class="bg-blue-400 p-2"onClick={() => setSelectedTab('Transaction Management')}style={styles.sty}>Transaction Management</button>
+            <button type="button" className="btn btn-primary custom-button table table-responsive" onClick={() => setSelectedTab('Transaction Management')}style={styles.sty}>Transaction Management</button>
           </li>
         </ul>
         <hr />
